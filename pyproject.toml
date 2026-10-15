@@ -1,6 +1,25 @@
 [project]
-name = "nn_courier"
+name = "nn-courier"
 version = "0.1.0"
-description = "Route optimizer for Nizhny Novgorod"
-authors = [{ name = "Your Name" }]
-requires-python = ">=3.10"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Daneelka", email = "danah29122003@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "folium>=0.20.0",
+    "mapclassify>=2.11.0",
+    "matplotlib>=3.11.2",
+    "networkx>=3.7",
+    "numpy>=2.5.4",
+    "ortools>=9.15.6755",
+    "osmnx>=2.1.1",
+]
+
+[project.scripts]
+nn-courier = "nn_courier:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
