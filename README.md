@@ -1,5 +1,7 @@
 # Nizhny Novgorod Courier
 
+<img width="1917" height="917" alt="image" src="https://github.com/user-attachments/assets/f261558b-30e6-49f4-a8f3-7eddd8eb9c32" />
+
 Оптимизатор маршрута курьера по дорогам Нижнего Новгорода.
 
 По списку адресов строит наиболее быстрый порядок объезда (задача коммивояжёра,
